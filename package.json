@@ -1,0 +1,15 @@
+{
+  "name": "Shared-TODO-list",
+  "version": "0.0.1",
+  "author": "jsconan",
+  "description": "Provide a small web page in which the users can add, remove, or check a shared TODO list.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "4.13.1",
+    "ejs": "~2.3.4",
+    "cookie-session": "~1.2.0",
+    "body-parser": "~1.14.1",
+    "socket.io": "~1.3.7",
+    "ent": "~2.2.0"
+  }
+}

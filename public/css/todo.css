@@ -1,0 +1,165 @@
+body {
+    font: normal 10pt/12pt Arial, sans-serif;
+}
+
+h1 {
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+    color: #888;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+h2 {
+    font-size: 11pt;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    padding: 0;
+    border-bottom: 1px solid #888;
+    text-align: left;
+}
+
+section {
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+section.login {
+    position: relative;
+    float: none;
+    width: 50%;
+    margin: 50px auto;
+}
+
+section.login input {
+    text-align: center;
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+section.user {
+    position: relative;
+    float: none;
+    width: 100%;
+    text-align: right;
+}
+
+section.user .username {
+    display: inline-block;
+    color: #008;
+}
+
+section.user .username span {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.notification {
+    position: relative;
+    margin: 2px;
+    padding: 2px;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-style: italic;
+    color: #a00;
+}
+
+.main {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.list {
+    position: relative;
+    margin: 5px 0;
+    padding: 0;
+    list-style-type: none;
+    height: 200px;
+    width: 380px;
+    border: 1px solid #444;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+
+.list li {
+    padding: 4px 0;
+}
+
+.list li:hover {
+    background-color: #eee;
+}
+
+.input {
+    width: 300px;
+    padding: 2px;
+}
+
+.action {
+    width: 50px;
+}
+
+.tasks .task {
+    background-color: #fee;
+}
+
+.tasks .task.checked {
+    background-color: #efe;
+}
+
+.tasks .task .id {
+    font-size: .7rem;
+    color: #0a0;
+    display: inline-block;
+    text-align: right;
+    width: 2em;
+}
+
+.tasks .task .label {
+    font-size: .9rem;
+    color: #00a;
+}
+
+.tasks .task input {
+    clear: both;
+}
+
+.tasks .task button {
+    float: right;
+}
+
+.messages .system {
+    color: #888;
+    font-size: .7rem;
+    font-style: italic;
+}
+
+.messages .message {
+    font-size: .8rem;
+}
+
+.messages .message .login {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.messages .message .text {
+}
+
+.messages .message.others {
+    color: #008;
+}
+
+.messages .message.me {
+    color: #080;
+}

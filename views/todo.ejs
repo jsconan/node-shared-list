@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Shared TODO list</title>
+        <link rel="stylesheet" href="css/todo.css" />
+    </head>
+    <body>
+        <div class="main">
+            <h1>Shared TODO list</h1>
+
+            <aside class="notification"></aside>
+
+            <section class="login">
+                <form class="connection" action="#" method="post">
+                    <input type="text" name="login" data-control="login" value="" placeholder="Please enter your name..." />
+                    <input type="submit" data-control="connect" value="Connect" />
+                </form>
+            </section>
+
+            <section class="user hidden">
+                <div class="username">Logged as: <span></span></div>
+                <button class="logout" data-control="logout">Logout</button>
+            </section>
+
+            <section class="todo hidden">
+                <h2>TODO list</h2>
+                <ul class="list tasks"></ul>
+                <form class="add" action="#" method="post">
+                    <input type="text" name="task" class="input" data-control="task" value="" placeholder="Add a task..." />
+                    <input type="submit" class="action" data-control="add" value="add" />
+                </form>
+            </section>
+
+            <section class="chat hidden">
+                <h2>Chat</h2>
+                <ul class="list messages"></ul>
+                <form class="talk" action="#" method="post">
+                    <input type="text" name="message" class="input" data-control="message" value="" placeholder="Your message..." />
+                    <input type="submit" class="action" data-control="send" value="Send" />
+                </form>
+            </section>
+        </div>
+
+        <script id="loader" data-app="todo" data-main="js/main.js" src="js/require.js"></script>
+    </body>
+</html>
