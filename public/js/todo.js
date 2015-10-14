@@ -201,7 +201,7 @@ define(['socket.io', 'jquery'], function(io, $) {
             $task.toggleClass('checked', task.checked);
 
             if (task.checked) {
-                $input.attr('checked', true);
+                $input.attr('checked', 'checked');
             } else {
                 $input.removeAttr('checked');
             }
