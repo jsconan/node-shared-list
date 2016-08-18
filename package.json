@@ -4,6 +4,7 @@
   "author": "jsconan",
   "description": "Provide a small web page in which the users can add, remove, or check a shared TODO list.",
   "license": "MIT",
+  "private": true,
   "main": "app.js",
   "scripts": {
     "start": "node ."
